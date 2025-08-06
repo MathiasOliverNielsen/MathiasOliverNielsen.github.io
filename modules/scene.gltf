@@ -3,50 +3,50 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 1308,
+      "count": 453,
       "max": [
-        36.458473205566406,
-        88.59794616699219,
-        46.736331939697266
+        33.85749435424805,
+        34.786354064941406,
+        90.28877258300781
       ],
       "min": [
-        -36.45846939086914,
-        -24.40534019470215,
-        -33.41172409057617
+        -33.85749435424805,
+        -34.84047317504883,
+        0.0
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 15696,
+      "byteOffset": 5436,
       "componentType": 5126,
-      "count": 1308,
+      "count": 453,
       "max": [
-        0.9999619126319885,
-        0.9979715347290039,
-        0.9999062418937683
+        0.7922101616859436,
+        0.8644097447395325,
+        1.0
       ],
       "min": [
-        -0.9999619126319885,
-        -0.9999976754188538,
-        -0.999879777431488
+        -0.7922099828720093,
+        -0.8667727708816528,
+        -1.0
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 1308,
+      "count": 453,
       "max": [
         1.0,
-        0.999879777431488,
-        0.9991888999938965,
+        1.0,
+        0.9399760961532593,
         1.0
       ],
       "min": [
         -1.0,
-        -0.9288992285728455,
-        -0.9894863367080688,
+        -1.0,
+        -0.9117820858955383,
         1.0
       ],
       "type": "VEC4"
@@ -54,91 +54,61 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 1308,
+      "count": 453,
       "max": [
-        0.9981727600097656,
-        0.9045422077178955
+        0.9970592260360718,
+        0.9628023505210876
       ],
       "min": [
-        0.001827239990234375,
-        0.001827239990234375
-      ],
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 10464,
-      "componentType": 5126,
-      "count": 1308,
-      "max": [
-        0.9981727600097656,
-        0.9045422077178955
-      ],
-      "min": [
-        0.001827239990234375,
-        0.001827239990234375
-      ],
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 20928,
-      "componentType": 5126,
-      "count": 1308,
-      "max": [
-        0.9981727600097656,
-        0.9045422077178955
-      ],
-      "min": [
-        0.001827239990234375,
-        0.001827239990234375
+        0.010000000707805157,
+        0.009999998845160007
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 6672,
+      "count": 1944,
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "Andrey.Chegodaev (https://sketchfab.com/Andrey.Chegodaev)",
+      "author": "RRFREELANCE (https://sketchfab.com/robertramsay)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/stuffed-dino-toy-d69e9bb7bfc6451993bf84f3e763a28a",
-      "title": "Stuffed dino toy"
+      "source": "https://sketchfab.com/3d-models/trashcan-mesh-727e6bb529b2449685945045017c66c2",
+      "title": "Trashcan Mesh"
     },
-    "generator": "Sketchfab-15.18.0",
+    "generator": "Sketchfab-15.17.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 26688,
+      "byteLength": 7776,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 31392,
-      "byteOffset": 26688,
+      "byteLength": 3624,
+      "byteOffset": 7776,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 31392,
-      "byteOffset": 58080,
+      "byteLength": 10872,
+      "byteOffset": 11400,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 20928,
-      "byteOffset": 89472,
+      "byteLength": 7248,
+      "byteOffset": 22272,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -146,78 +116,66 @@
   ],
   "buffers": [
     {
-      "byteLength": 110400,
-      "uri": ".bin"
+      "byteLength": 29520,
+      "uri": "scene.bin"
     }
   ],
-  "extensionsRequired": [
-    "KHR_materials_pbrSpecularGlossiness"
-  ],
   "extensionsUsed": [
-    "KHR_materials_pbrSpecularGlossiness"
+    "KHR_materials_specular"
   ],
   "images": [
     {
-      "uri": "textures/Material.001_diffuse.png"
+      "uri": "textures/Trashcan_Mat_baseColor.png"
     },
     {
-      "uri": "textures/Material.001_specularGlossiness.png"
+      "uri": "textures/Trashcan_Mat_metallicRoughness.png"
     },
     {
-      "uri": "textures/Material.001_normal.png"
-    },
-    {
-      "uri": "textures/Material.001_occlusion.png"
+      "uri": "textures/Trashcan_Mat_normal.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
       "extensions": {
-        "KHR_materials_pbrSpecularGlossiness": {
-          "diffuseFactor": [
-            1.0,
+        "KHR_materials_specular": {
+          "specularColorFactor": [
             1.0,
             1.0,
             1.0
           ],
-          "diffuseTexture": {
-            "index": 0
-          },
-          "glossinessFactor": 1.0,
-          "specularFactor": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "specularGlossinessTexture": {
-            "index": 1
-          }
+          "specularFactor": 0.17523862929867975
         }
       },
-      "name": "Material.001",
+      "name": "Trashcan_Mat",
       "normalTexture": {
         "index": 2
       },
       "occlusionTexture": {
-        "index": 3
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
       }
     }
   ],
   "meshes": [
     {
-      "name": "Cube.001_Material.001_0",
+      "name": "Trashcan_Mesh_Trashcan_Mat_0",
       "primitives": [
         {
           "attributes": {
             "NORMAL": 1,
             "POSITION": 0,
             "TANGENT": 2,
-            "TEXCOORD_0": 3,
-            "TEXCOORD_1": 4,
-            "TEXCOORD_2": 5
+            "TEXCOORD_0": 3
           },
-          "indices": 6,
+          "indices": 4,
           "material": 0,
           "mode": 4
         }
@@ -230,17 +188,17 @@
         1
       ],
       "matrix": [
-        1.0,
-        0.0,
-        0.0,
+        -1.0,
+        2.832769343193999e-16,
+        6.290011496532519e-32,
         0.0,
         0.0,
         2.220446049250313e-16,
         -1.0,
         0.0,
-        0.0,
-        1.0,
-        2.220446049250313e-16,
+        -2.832769343193999e-16,
+        -1.0,
+        -2.220446049250313e-16,
         0.0,
         0.0,
         0.0,
@@ -259,8 +217,9 @@
         0.0,
         0.0,
         0.0,
+        -0.009999999776482582,
         0.0,
-        0.009999999776482582,
+        0.0,
         0.0,
         0.0,
         -0.009999999776482582,
@@ -268,10 +227,9 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         1.0
       ],
-      "name": "bbdc376086084aceb880bfa338b2722a.fbx"
+      "name": "bb4725c6640f4775b9de93933848a68f.fbx"
     },
     {
       "children": [
@@ -284,28 +242,52 @@
         4
       ],
       "matrix": [
-        1.2313860654830933,
+        1.0,
         0.0,
         0.0,
         0.0,
         0.0,
-        0.7917922735214233,
+        1.0,
         0.0,
         0.0,
         0.0,
         0.0,
-        1.065483808517456,
+        1.0,
         0.0,
         0.0,
-        16.602619171142578,
+        -0.027059555053710938,
         0.0,
         1.0
       ],
-      "name": "Cube.001"
+      "name": "Trashcan_Mesh"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.027059555053710938,
+        0.0,
+        1.0
+      ],
+      "name": "Object_4"
     },
     {
       "mesh": 0,
-      "name": "Cube.001_Material.001_0"
+      "name": "Trashcan_Mesh_Trashcan_Mat_0"
     }
   ],
   "samplers": [
@@ -337,10 +319,6 @@
     {
       "sampler": 0,
       "source": 2
-    },
-    {
-      "sampler": 0,
-      "source": 3
     }
   ]
 }
