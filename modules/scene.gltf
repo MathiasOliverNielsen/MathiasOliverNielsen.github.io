@@ -3,32 +3,32 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 453,
+      "count": 864,
       "max": [
-        33.85749435424805,
-        34.786354064941406,
-        90.28877258300781
+        29.713451385498047,
+        242.76080322265625,
+        76.81183624267578
       ],
       "min": [
-        -33.85749435424805,
-        -34.84047317504883,
-        0.0
+        -29.713451385498047,
+        -3.0517578125e-05,
+        -76.81183624267578
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 5436,
+      "byteOffset": 10368,
       "componentType": 5126,
-      "count": 453,
+      "count": 864,
       "max": [
-        0.7922101616859436,
-        0.8644097447395325,
+        1.0,
+        1.0,
         1.0
       ],
       "min": [
-        -0.7922099828720093,
-        -0.8667727708816528,
+        -1.0,
+        -1.0,
         -1.0
       ],
       "type": "VEC3"
@@ -36,79 +36,79 @@
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 453,
+      "count": 864,
       "max": [
         1.0,
         1.0,
-        0.9399760961532593,
+        0.9807882905006409,
         1.0
       ],
       "min": [
         -1.0,
         -1.0,
-        -0.9117820858955383,
-        1.0
+        -1.0,
+        -1.0
       ],
       "type": "VEC4"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 453,
+      "count": 864,
       "max": [
-        0.9970592260360718,
-        0.9628023505210876
+        0.9933969378471375,
+        0.9928138852119446
       ],
       "min": [
-        0.010000000707805157,
-        0.009999998845160007
+        0.007255688309669495,
+        0.002903550863265991
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 1944,
+      "count": 3462,
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "RRFREELANCE (https://sketchfab.com/robertramsay)",
+      "author": "Georg Klein (https://sketchfab.com/kleingeo)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/trashcan-mesh-727e6bb529b2449685945045017c66c2",
-      "title": "Trashcan Mesh"
+      "source": "https://sketchfab.com/3d-models/game-boy-classic-0ae80019e6f046168923286d7e628f6f",
+      "title": "Game Boy Classic"
     },
-    "generator": "Sketchfab-15.17.0",
+    "generator": "Sketchfab-12.67.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 7776,
+      "byteLength": 13848,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 3624,
-      "byteOffset": 7776,
+      "byteLength": 6912,
+      "byteOffset": 13848,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 10872,
-      "byteOffset": 11400,
+      "byteLength": 20736,
+      "byteOffset": 20760,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 7248,
-      "byteOffset": 22272,
+      "byteLength": 13824,
+      "byteOffset": 41496,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -116,38 +116,25 @@
   ],
   "buffers": [
     {
-      "byteLength": 29520,
+      "byteLength": 55320,
       "uri": "scene.bin"
     }
   ],
-  "extensionsUsed": [
-    "KHR_materials_specular"
-  ],
   "images": [
     {
-      "uri": "textures/Trashcan_Mat_baseColor.png"
+      "uri": "textures/lambert1_baseColor.png"
     },
     {
-      "uri": "textures/Trashcan_Mat_metallicRoughness.png"
+      "uri": "textures/lambert1_metallicRoughness.png"
     },
     {
-      "uri": "textures/Trashcan_Mat_normal.png"
+      "uri": "textures/lambert1_normal.png"
     }
   ],
   "materials": [
     {
-      "doubleSided": true,
-      "extensions": {
-        "KHR_materials_specular": {
-          "specularColorFactor": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "specularFactor": 0.17523862929867975
-        }
-      },
-      "name": "Trashcan_Mat",
+      "alphaMode": "BLEND",
+      "name": "lambert1",
       "normalTexture": {
         "index": 2
       },
@@ -166,7 +153,7 @@
   ],
   "meshes": [
     {
-      "name": "Trashcan_Mesh_Trashcan_Mat_0",
+      "name": "SM_Gameboy_lambert1_0",
       "primitives": [
         {
           "attributes": {
@@ -188,17 +175,17 @@
         1
       ],
       "matrix": [
-        -1.0,
-        2.832769343193999e-16,
-        6.290011496532519e-32,
+        0.0010000000474974513,
         0.0,
         0.0,
-        2.220446049250313e-16,
-        -1.0,
         0.0,
-        -2.832769343193999e-16,
-        -1.0,
-        -2.220446049250313e-16,
+        0.0,
+        2.220446154715841e-19,
+        -0.0010000000474974513,
+        0.0,
+        0.0,
+        0.0010000000474974513,
+        2.220446154715841e-19,
         0.0,
         0.0,
         0.0,
@@ -212,24 +199,24 @@
         2
       ],
       "matrix": [
-        0.009999999776482582,
+        1.0,
         0.0,
         0.0,
         0.0,
         0.0,
-        -0.009999999776482582,
+        0.0,
+        1.0,
         0.0,
         0.0,
+        -1.0,
         0.0,
-        0.0,
-        -0.009999999776482582,
         0.0,
         0.0,
         0.0,
         0.0,
         1.0
       ],
-      "name": "bb4725c6640f4775b9de93933848a68f.fbx"
+      "name": "ed931da4118147d6940cbf2b7a779160.fbx"
     },
     {
       "children": [
@@ -241,53 +228,11 @@
       "children": [
         4
       ],
-      "matrix": [
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        -0.027059555053710938,
-        0.0,
-        1.0
-      ],
-      "name": "Trashcan_Mesh"
-    },
-    {
-      "children": [
-        5
-      ],
-      "matrix": [
-        1.0,
-        0.0,
-        -0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.027059555053710938,
-        0.0,
-        1.0
-      ],
-      "name": "Object_4"
+      "name": "SM_Gameboy"
     },
     {
       "mesh": 0,
-      "name": "Trashcan_Mesh_Trashcan_Mat_0"
+      "name": "SM_Gameboy_lambert1_0"
     }
   ],
   "samplers": [
