@@ -15,12 +15,12 @@
       <!-- Sebastian -->
       <a-assets>
         <!-- you can preload assets here if needed -->
-        <a-asset-item id="scene" src="modules/scene.gltf"></a-asset-item>
+        <a-asset-item id="scene" src="assets/Sebastian-model-black-pink/scene.gltf"></a-asset-item>
       </a-assets>
       <!-- barcode marker -->
       <a-marker type="barcode" value="22">
         <!-- add 3D objects here that will appear on the marker -->
-        <a-entity gltf-model="modules/scene.gltf" scale="1 1 1" position="0 0 0"></a-entity>
+        <a-entity gltf-model="#scene" scale="1 1 1" position="0 0 0"></a-entity>
         <!-- you can also add text or other entities -->
         <a-text look-at="[camera]" value="Sebastian Larsen" scale="1 1 1" position="0 0 0"></a-text>
       </a-marker>
