@@ -6,7 +6,7 @@
     <title>AR-test</title>
     <!-- include A-Frame obviously -->
     <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
-
+    <!-- include AR.js for A-Frame -->
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
   </head>
   <body style="margin: 0; overflow: hidden">
@@ -39,6 +39,7 @@
         <a-asset-item id="odette" src="/assets/meyoco_-_cat/scene.gltf"></a-asset-item>
       </a-assets>
       <a-marker type="barcode" value="19">
+        <!-- GLTF model positioned  -->
         <a-entity gltf-model="#odette" scale="-0.5 -0.5 -0.5" position=" 0 0.5 0.5" rotation="180 0 0"></a-entity>
         <a-text value="Miranda H. Nielsen" scale="1.5 1.5 1.5" position=" -1.5 1 0" color="pink"></a-text>
       </a-marker>
